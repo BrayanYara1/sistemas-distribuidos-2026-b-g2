@@ -9,7 +9,7 @@ graph TD
     Historial[Historial Clínico y Resultados]
     Medicina[Gestión de Medicamentos]
     Chat[Comunicación Paciente-Médico]
-    Gami[Gamificación y Estadísticas]
+    Gami[Gestión de Gamificación y Estadísticas]
 
     IAM -- "Provee Usuario (Upstream)" --> Turnos
     IAM -- "Provee Usuario (Upstream)" --> Historial

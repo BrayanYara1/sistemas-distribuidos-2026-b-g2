@@ -26,7 +26,7 @@
 -
 
 ## 5. Compliance self-check
-- [ ] Conventional Commits - `type(scope): summary`
+- [ ] Conventional Commits - 'type(scope): summary'
 - [ ] Per-environment HU branch + PR to that environment (hu-xxx-dev -> develop, ...)
 - [ ] Testable acceptance criteria
 - [ ] Tests added/updated (unit / integration)
