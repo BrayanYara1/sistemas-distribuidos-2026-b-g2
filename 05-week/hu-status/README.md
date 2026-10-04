@@ -20,15 +20,17 @@
 | HU-016 | View Information Offline - limited offline scope for the MVP | doing | [MVP definition](https://github.com/code-corhuila/appt-mgmt-docs/commit/729072f7a74c0363e1107c164a8ab10274f9d01c) |
 
 ## 2. My individual contribution
-- Added the discovery report and MVP definition for Corte 1.
-- Added the technology-stack ADR and UX/UI/MVP project material.
-- These are scope/design deliverables; none of the listed HUs is marked complete based on them alone.
+- Added the discovery report, Corte 1 MVP scope, and initial patient scheduling flow.
+- Added the technology-stack ADR and the UX/UI/MVP project material, including the Android application source added to the documentation repository.
+- Connected the MVP scope to HU-001, HU-002, HU-007, and the limited offline-access scope in HU-016.
+- These are planning, design, and project-artifact contributions; they do not by themselves prove all implementation acceptance criteria or production readiness.
 
 ## 3. Blockers and risks
-- No technical blocker is documented in the linked project evidence.
+- No technical blocker is recorded in the linked deliverables. Risks include the gap between documented MVP scope and verified acceptance criteria, plus differences between planned data/architecture descriptions and the evolving application.
 
 ## 4. Plan for next week
 - Organize business and cross-cutting domains and refine the domain map.
+- Track the planned MVP HUs as in progress until code and tests demonstrate the acceptance criteria.
 
 ## 5. Compliance self-check
 - [ ] Conventional Commits - `type(scope): summary`
@@ -37,6 +39,8 @@
 - [ ] Tests added/updated (unit / integration)
 - [ ] DDD / hexagonal boundaries respected (domain has no I/O)
 - [ ] No secrets; config via environment variables
+
+The evidence is a documentation/MVP contribution; no test run, HU-specific environment PR, or completion against the full Definition of Done is linked for this period.
 
 ## 6. Evidence links
 - [MVP definition for Corte 1](https://github.com/code-corhuila/appt-mgmt-docs/commit/729072f7a74c0363e1107c164a8ab10274f9d01c)
