@@ -19,15 +19,16 @@
 | HU-007 | Request Medical Appointment - API contract | doing | [API contracts and OpenAPI schemas](https://github.com/code-corhuila/appt-mgmt-docs/commit/394bf8c9cefe1fa865557a89e60d9ad2534c31d8) |
 
 ## 2. My individual contribution
-- Added REST guidelines, authentication documentation, API contracts, and OpenAPI schemas.
-- Refined the API documentation to enforce the agreed algorithm and documentation-branch conventions.
-- The contract work does not by itself prove the corresponding feature acceptance criteria are complete.
+- Added REST guidelines, authentication documentation, API contracts, and OpenAPI schemas for the Salud Activa API.
+- Refined the contract documentation and corrected the documented JWT algorithm/branch conventions in a follow-up change.
+- The artifacts support registration, login, and appointment-request work, but do not by themselves prove that the implemented endpoints meet every acceptance criterion.
 
 ## 3. Blockers and risks
-- No technical blocker is documented in the linked project evidence.
+- No technical blocker is documented. Integration risk remains until the contracts are validated against deployed endpoint behavior and contract tests.
 
 ## 4. Plan for next week
-- Validate the appointment flow with automated tests and document the system UML views.
+- Validate the appointment flow and availability behavior with automated backend tests.
+- Document the system context, containers, data model, and primary interaction sequences.
 
 ## 5. Compliance self-check
 - [x] Conventional Commits - `type(scope): summary`
@@ -37,6 +38,8 @@
 - [ ] DDD / hexagonal boundaries respected (domain has no I/O)
 - [ ] No secrets; config via environment variables
 
+The commits use `docs:` Conventional Commit subjects. The listed contract work is documentation rather than a test run; no HU-specific environment PR, contract-test execution, runtime boundary validation, or configuration/security review is evidenced for this week.
+
 ## 6. Evidence links
 - [API contracts, REST guidelines, authentication, and OpenAPI schemas](https://github.com/code-corhuila/appt-mgmt-docs/commit/394bf8c9cefe1fa865557a89e60d9ad2534c31d8)
-- [API documentation corrections](https://github.com/code-corhuila/appt-mgmt-docs/commit/24fe79f)
+- [API documentation corrections](https://github.com/code-corhuila/appt-mgmt-docs/commit/24fe79fb697a86dee997d5e3b8309d7657e5892b)

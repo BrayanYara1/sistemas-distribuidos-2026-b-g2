@@ -19,15 +19,17 @@
 | HU-007 | Request Medical Appointment - requirement, traceability, and data-model refinement | doing | [Requirements and architecture update](https://github.com/code-corhuila/appt-mgmt-docs/commit/f4dae481dc78766497e38a5e613cce5d81ccf4aa) |
 
 ## 2. My individual contribution
-- Updated the user-story backlog, non-functional requirements, and traceability matrix.
-- Revised the system architecture, ADR material, and healthcare data-model documentation.
-- The listed HU statuses remain `doing`: this week's evidence is requirements/design work, not proof that the application acceptance criteria are complete.
+- Refined the registration, login, and appointment-request stories and their acceptance criteria in the backlog.
+- Updated non-functional requirements and the requirements traceability matrix.
+- Revised the architecture overview, ADR material, and healthcare data-model documentation, including context/container diagrams.
+- These are requirements/design deliverables. The linked commit does not establish that the implementation passes the HUs' full Definition of Done, so the statuses remain `doing`.
 
 ## 3. Blockers and risks
-- No technical blocker is documented in the linked project evidence.
+- No code/test blocker is recorded. The remaining delivery risk is that requirements and architecture updates alone do not verify implementation, review, staging deployment, or each HU's acceptance criteria.
 
 ## 4. Plan for next week
-- Define the first-cut MVP scope, discovery findings, UX/UI, and technology decisions.
+- Select the Corte 1 MVP scope and document discovery findings, UX/UI, and the technology-stack decision.
+- Keep HU-001, HU-002, and HU-007 in progress until their implementation acceptance criteria are verified.
 
 ## 5. Compliance self-check
 - [ ] Conventional Commits - `type(scope): summary`
@@ -36,6 +38,8 @@
 - [ ] Tests added/updated (unit / integration)
 - [ ] DDD / hexagonal boundaries respected (domain has no I/O)
 - [ ] No secrets; config via environment variables
+
+Conventional-commit format, a per-HU environment PR, tests, runtime boundary checks, and configuration changes are not evidenced by this documentation-only commit; unchecked items are intentionally not claimed.
 
 ## 6. Evidence links
 - [Revised requirements, traceability, architecture, and data models](https://github.com/code-corhuila/appt-mgmt-docs/commit/f4dae481dc78766497e38a5e613cce5d81ccf4aa)
