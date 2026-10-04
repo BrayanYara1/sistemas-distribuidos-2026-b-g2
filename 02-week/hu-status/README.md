@@ -1,30 +1,30 @@
 <!-- HU-STATUS TEMPLATE - do NOT remove the <!-- ... --> markers or the table headers.
      Your weekly grade is read AUTOMATICALLY from this file:
-       06-week/hu-status/README.md  (inside YOUR fork). English. -->
+       02-week/hu-status/README.md  (inside YOUR fork). English. -->
 
-# Weekly Status - Week 06
+# Weekly Status - Week 02
 
 <!-- CONFIG-START - must match your profile repo (username/username) CONFIG -->
 - FULL_NAME: Brahiam Yara
 - GITHUB_USER: BrayanYara1
 - TEAM: Group 2
-- SPRINT_GOAL: Retrospective (Sep 07-13): organize the Salud Activa business and cross-cutting domains.
+- SPRINT_GOAL: Retrospective: no project sprint goal is verifiable for Aug 10-16, 2026.
 <!-- CONFIG-END -->
 
 ## 1. User stories worked this week
 | HU ID | Title | Status (todo/doing/done) | Evidence (PR or commit URL) |
 |---|---|---|---|
 
-No feature HU implementation is claimed for this week; the evidenced work was domain-documentation organization.
+No Salud Activa user-story delivery attributable to me was found in the available project history for Aug 10-16. Course-repository template and workflow commits by the course maintainer are not counted as my project contribution.
 
 ## 2. My individual contribution
-- Organized the business and cross-cutting domain documentation to make the project boundaries clearer.
+- No project-specific contribution can be verified for this period from the available commit history.
 
 ## 3. Blockers and risks
-- No technical blocker is documented in the linked project evidence.
+- Historical evidence gap: no project HU or deliverable by me is recorded for this period.
 
 ## 4. Plan for next week
-- Improve repository-wide documentation navigation and portability.
+- Establish the project context, initial MVP story breakdown, and appointment-domain model.
 
 ## 5. Compliance self-check
 - [ ] Conventional Commits - `type(scope): summary`
@@ -35,4 +35,4 @@ No feature HU implementation is claimed for this week; the evidenced work was do
 - [ ] No secrets; config via environment variables
 
 ## 6. Evidence links
-- [Business and cross-cutting domain documentation](https://github.com/code-corhuila/appt-mgmt-docs/commit/985e8a3d9cd6ac4ca89fe03b603b3b26df4e9880)
+- No project-specific evidence link is available for this period.
